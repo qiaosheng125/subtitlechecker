@@ -31,6 +31,12 @@ export default function PrivacyPage() {
           Do not paste confidential or client-owned subtitle files into any web
           tool unless your workflow allows it.
         </p>
+        <p>
+          For privacy questions or bug reports, email{" "}
+          <a href="mailto:support@subtitlechecker.com">support@subtitlechecker.com</a>.
+          Your email address and message are used only to respond to your request
+          and improve the checker.
+        </p>
       </section>
     </main>
   );

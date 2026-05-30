@@ -19,8 +19,8 @@ export default function ContactPage() {
       <section>
         <h1>Contact</h1>
         <p>
-          For bug reports or feature requests, open an issue in the project
-          repository after the public GitHub repository is connected.
+          For bug reports or feature requests, email{" "}
+          <a href="mailto:support@subtitlechecker.com">support@subtitlechecker.com</a>.
         </p>
         <p>
           Useful reports include the subtitle format, the expected result, and a
