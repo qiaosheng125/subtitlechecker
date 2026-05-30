@@ -3,8 +3,8 @@
 import Script from "next/script";
 
 export function AnalyticsScripts() {
-  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-  const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.replace(/^\uFEFF/, "").trim();
+  const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID?.replace(/^\uFEFF/, "").trim();
 
   return (
     <>
