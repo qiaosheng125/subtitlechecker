@@ -1,19 +1,19 @@
 # Subtitle Checker
 
-Subtitle Checker is a browser-based SRT subtitle quality checker for line length, CPS, timing overlap, cue numbering, and readability issues.
+面向海外用户的 SRT 字幕质量检查工具，用于检查行长度、CPS、时间重叠、字幕编号和可读性问题。
 
-Live domain: `https://www.subtitlechecker.com`
+线上地址：`https://www.subtitlechecker.com`
 
-## Local Development
+## 本地开发
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Analytics
+## 统计配置
 
-Optional environment variables:
+可选环境变量：
 
 - `NEXT_PUBLIC_GA_MEASUREMENT_ID`
 - `NEXT_PUBLIC_CLARITY_ID`
