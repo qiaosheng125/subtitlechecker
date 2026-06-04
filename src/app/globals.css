@@ -231,6 +231,13 @@ textarea {
   line-height: 1.65;
 }
 
+.inputNotice {
+  color: #b42318;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 10px 20px 0;
+}
+
 .settingsPanel {
   padding-bottom: 20px;
 }

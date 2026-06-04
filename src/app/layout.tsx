@@ -12,9 +12,6 @@ export const metadata: Metadata = {
   },
   description:
     "Check SRT subtitles for line length, CPS, two-line limits, timing overlaps, numbering issues, and readability problems. Runs in your browser with no upload.",
-  alternates: {
-    canonical: "/"
-  },
   openGraph: {
     title: "SRT Subtitle Checker",
     description:
